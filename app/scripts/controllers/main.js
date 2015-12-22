@@ -9,6 +9,10 @@
  */
 angular.module('usariaUxpmApp')
   .controller('MainCtrl', function () {
+
+	  console.log( '( ͡° ͜ʖ ͡°)' );
+	  console.log( 'Fabritzio Villegas' );
+
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
