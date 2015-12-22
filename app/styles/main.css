@@ -7,7 +7,11 @@ body {
 }
 
 .add-margin {
-	margin-top: 175px;
+	margin-top: 150px;
+}
+
+.add-padding-bottom{
+	padding-bottom: 15px;
 }
 
 .jumbotron{
@@ -18,17 +22,15 @@ body {
 
 /* estilos de la barra de navegacion */
 
-.usaria-logo {
-	width: 100%;
-	height: auto;
-	max-width: 184px;
-	max-height: 140px;
+.navbar-jumbotron{
+	background-color: #FFFFFF;
+	padding-bottom: 0 !important;
 }
 
-.uxalliance-logo {
-	width: 100%;
-	margin-top: 90px;
+.usaria-logo, .uxalliance-logo {
+	width: 50%;
 	height: auto;
+	float: left;
 }
 
 .navbar{
@@ -36,7 +38,18 @@ body {
 }
 
 .custom-nav {
-	margin-top: 60px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+.uxpm-nav-link{
+	font-weight: 400;
+	color: #525252;
+	font-size: 1em;
+}
+
+.uxpm-nav-link:hover{
+	color: #83C619;
 }
 
 /* estilos de INICIO */
