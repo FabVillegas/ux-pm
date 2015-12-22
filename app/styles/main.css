@@ -1,0 +1,312 @@
+/* fixes */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.add-margin {
+	margin-top: 175px;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+}
+
+
+/* estilos de la barra de navegacion */
+
+.usaria-logo {
+	width: 100%;
+	height: auto;
+	max-width: 184px;
+	max-height: 140px;
+}
+
+.uxalliance-logo {
+	width: 100%;
+	margin-top: 90px;
+	height: auto;
+}
+
+.navbar{
+	background-color: #FFFFFF;
+}
+
+.custom-nav {
+	margin-top: 60px;
+}
+
+/* estilos de INICIO */
+
+.inicio-jumbotron {
+	background-color: #19A1B3;
+	border-radius: 0px !important;
+	margin-bottom: 0;
+}
+
+.inicio-title {
+	margin: 0;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 3em;
+	letter-spacing: -2px;
+	line-height: 1.75;
+}
+
+.inicio-jumbotron h4 {
+	color: #FFFFFF;
+	font-family: 'Gotham';
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#logo-uxpm {
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+
+.inicio-jumbotron button {
+	border: none;
+	background-color: #FFFFFF;
+	color: #19A1B3;
+	text-transform: uppercase;
+	font-family: 'Gotham';
+	font-weight: 700;
+	padding: 5px 10px 5px 10px;
+}
+
+.inicio-data {
+	margin-top: 50px;
+}
+
+.inicio-data div{
+	color: #FFFFFF;
+}
+
+.inicio-data-container {
+	overflow: auto;
+}
+
+.inicio-data-container img {
+	float: left;
+	max-width: 50px;
+	height: auto;
+}
+
+.inicio-data-container p {
+	font-size: 2em;
+	font-weight: 700;
+	font-family: 'Gotham';
+	line-height: 2em;
+	margin: 0;
+}
+
+p {
+	font-weight: 400;
+	font-family: 'Gotham';
+}
+
+/* seccion UXMP */
+
+.uxpm-jumbotron{
+	background-color: #F6F6F6;
+}
+
+.uxpm-section {
+	background-color: #F6F6F6;
+	color: #525252;
+	font-family: 'Gotham';
+}
+
+#uxpm-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2.25em;
+	line-height: 1.5;
+}
+
+.uxpm-section h4 {
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: 1.75;
+}
+
+#uxpm-content-container {
+	margin-top: 20px;
+}
+
+#uxpm-content-container p {
+	font-size: 1.25em;
+	line-height: 1.75;
+}
+
+.uxpm-small-green-line {
+	width: 30px;
+	margin-top: 15px;
+	margin-right: 10px;
+	height: 3px;
+	background-color: #83C619;
+}
+
+#uxpm-certification-notice-img {
+	width: 80%;
+	margin: 0 10%;
+	height: auto;
+}
+
+/* seccion PROGRAMA */
+
+.programa-jumbotron {
+	background-color: #FFFFFF;
+	color: #525252;
+}
+
+#programa-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2.25em;
+	line-height: 1.5;
+}
+
+.module-image {
+	width: 70%;
+	margin-right: 30%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.module-text {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+/* seccion FRANJA MORADA */
+.purple-jumbotron{
+	background-color: #B178B6;
+	color: #FFFFFF;
+}
+
+.purple-jumbotron h3 {
+	font-weight: 700;
+	font-family: 'Gotham';
+	text-transform: uppercase;
+	font-size: 1.1875em;
+}
+
+.purple-line {
+	width: 50px;
+	height: 7px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #C482CC;
+}
+
+.purple-text{
+	font-weight: 400px;
+	font-size: 1.125em;
+}
+
+/* seccion NO TE SIENTES LISTO PARA CERTIFICARTE */
+
+.otros-cursos-jumbotron{
+	background-color: #FFFFFF;
+	color: #525252;
+}
+
+.otros-cursos-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.25em;
+}
+
+.otros-cursos-img{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FONT FACE RULES */
+
+
+@font-face {
+	font-family: 'Cambria';
+	src: url( ../fonts/Cambria-Italic.ttf );
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url( ../fonts/Georgia-Italic.ttf );
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url( ../fonts/Gotham-Book.otf );
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url( ../fonts/Gotham-Bold.otf );
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url( ../fonts/GothamRnd-Book.otf );
+	font-weight: 400;
+}

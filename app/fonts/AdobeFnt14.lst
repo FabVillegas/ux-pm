@@ -1,0 +1,104 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cambria-Italic
+FamilyName:Cambria
+StyleName:Italic
+MenuName:Cambria
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Cambria Italic
+WritingScript:Roman
+OutlineFileName:\Cambria Italic.ttf
+DataFormat:sfntData
+FileLength:827080
+FileModTime:1278375513
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Georgia-Italic
+FamilyName:Georgia
+StyleName:Italic
+MenuName:Georgia
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Georgia Italic
+WritingScript:Roman
+OutlineFileName:\Georgia Italic.ttf
+DataFormat:sfntData
+FileLength:165208
+FileModTime:1310389581
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Bold
+FamilyName:Gotham
+StyleName:Bold
+MenuName:Gotham
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gotham-Bold
+WritingScript:Roman
+OutlineFileName:\Gotham-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:23860
+FileModTime:1295617186
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Book
+FamilyName:Gotham Book
+StyleName:Regular
+MenuName:Gotham Book
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham-Book
+WritingScript:Roman
+OutlineFileName:\Gotham-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29916
+FileModTime:1199377834
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamRounded-Book
+FamilyName:Gotham Rounded
+StyleName:Book
+MenuName:Gotham Rounded Book
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Gotham Rounded Book
+WritingScript:Roman
+OutlineFileName:\GothamRnd-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:136136
+FileModTime:1349115554
+%EndFont
+
