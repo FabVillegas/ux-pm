@@ -3,30 +3,34 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Gotham' !important;
 }
 
 .add-margin {
-	margin-top: 175px;
+	margin-top: 150px;
+}
+
+.add-padding-bottom{
+	padding-bottom: 15px;
 }
 
 .jumbotron{
 	margin-bottom: 0;
+	border-radius: 0px !important;
 }
 
 
 /* estilos de la barra de navegacion */
 
-.usaria-logo {
-	width: 100%;
-	height: auto;
-	max-width: 184px;
-	max-height: 140px;
+.navbar-jumbotron{
+	background-color: #FFFFFF;
+	padding-bottom: 0 !important;
 }
 
-.uxalliance-logo {
-	width: 100%;
-	margin-top: 90px;
+.usaria-logo, .uxalliance-logo {
+	width: 50%;
 	height: auto;
+	float: left;
 }
 
 .navbar{
@@ -34,7 +38,18 @@ body {
 }
 
 .custom-nav {
-	margin-top: 60px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+.uxpm-nav-link{
+	font-weight: 400;
+	color: #525252;
+	font-size: 1em;
+}
+
+.uxpm-nav-link:hover{
+	color: #83C619;
 }
 
 /* estilos de INICIO */
@@ -70,13 +85,12 @@ body {
 	height: auto;
 }
 
-.inicio-jumbotron button {
+.white-button-blue-text {
 	border: none;
 	background-color: #FFFFFF;
 	color: #19A1B3;
 	text-transform: uppercase;
-	font-family: 'Gotham';
-	font-weight: 700;
+	font-weight: 400;
 	padding: 5px 10px 5px 10px;
 }
 
@@ -213,6 +227,12 @@ p {
 
 /* seccion NO TE SIENTES LISTO PARA CERTIFICARTE */
 
+#big-container{
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+}
+
 .otros-cursos-jumbotron{
 	background-color: #FFFFFF;
 	color: #525252;
@@ -222,23 +242,193 @@ p {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2.25em;
+	z-index: 2;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.otros-cursos-link {
+	color: #199FB2;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.otros-cursos-text{
+	margin-top: 25px;
+	font-weight: 400;
+	font-size: 1.125em;
+	margin-bottom: 0;
 }
 
 .otros-cursos-img{
-	
+	width: 100%;
+	height: auto;
+	max-height: 404px;
+}
+
+#workshop-img-container {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 
+/* seccion BARRA VERDE */
 
+.green-jumbotron {
+	background-color: #76C000;
+	color: #FFFFFF;
+	text-align: center;
+}
 
+.green-title{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.25em;
+}
 
+.white-button-green-text{
+	border: none;
+	background-color: #FFFFFF;
+	color: #74C200;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 5px 10px 5px 10px;
+	margin-top: 30px;
+}
 
+/* SECCION ACERCA DE USARIA */
 
+.usaria-jumbotron{
+	background-color: #FFFFFF;
+	color: #525252;
+}
 
+.usaria-title{
+	font-weight: 700;
+	font-size: 2.25em;
+	text-transform: uppercase;
+}
 
+.usaria-subtext{
+	font-weight: 400;
+	font-size: 2.5em;
+}
 
+.usaria-text{
+	font-weight: 400;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 
+/* SECCION INSTRUCTORES UXPM */
 
+.instructores-jumbotron {
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+.instructores-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.instructores-text {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.instructores-small-green-line {
+	width: 30px;
+	margin-top: 8px;
+	margin-right: 10px;
+	height: 3px;
+	background-color: #83C619;
+}
+
+.instructores-data{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* SECCION CONTACTO */
+
+.contacto-jumbotron {
+	background-color: #FFFFFF;
+	color: #525252;
+}
+
+.contacto-title{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.25em;
+}
+
+.contacto-text{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contacto-input {
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #19A1B3;
+}
+
+.contacto-textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #19A1B3;
+	resize: none;
+}
+
+.contacto-input:focus, .contacto-textarea:focus{
+	outline: 0;
+	border-bottom: 1px solid #83C619;
+}
+
+.contacto-textarea:focus{
+	outline: 0;
+	border: 1px solid #83C619;
+}
+
+.blue-button-white-text {
+	border: none;
+	color: #FFFFFF;
+	background-color: #19A1B3;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 5px 10px 5px 10px;
+}
+
+/* SECCION DE FOOTER */
+
+.footer-jumbotron{
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+.footer-title{
+	font-weight: 700;
+	font-size: 2.25em;
+	text-transform: uppercase;
+}
+
+.footer-direction-title{
+	font-weight: 700;
+	font-size: 1em;
+	margin-top: 25px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.footer-direction-text{
+	font-weight: 400;
+	font-size: 1em;
+	margin: 0;
+}
 
 
 
