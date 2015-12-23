@@ -532,7 +532,89 @@ p {
 }
 
 
+@media ( max-width: 767px ) {
+	.menu-button {
+		margin: 0;
+	}
 
+	.inicio-title {
+    	font-size: 2em;
+		line-height: 1.5;
+	}
+
+	.add-margin {
+    	margin-top: 100px;
+	}
+
+	#logo-uxpm {
+		margin-top: 20px;
+	}
+
+	.inicio-data-container p {
+    	font-size: 1em;
+	}
+
+	.inicio-data-container img {
+		float: none;
+	}
+
+	.inicio-info-container {
+		height: 150px;
+	}
+
+	#uxpm-title {
+    	font-size: 1em;
+	}
+
+	#uxpm-content-container p {
+	    font-size: 1em;
+	}
+
+	#uxpm-certification-notice-img {
+    	width: 100%;
+    	margin: 0 ;
+	}
+
+	#programa-title {
+    	font-size: 1em;
+	}
+
+	.module-image {
+    	width: 100%;
+	    margin: 0;
+    	margin-bottom: 30px;
+	}
+
+	.otros-cursos-img {
+		display: none;
+	}
+
+	.otros-cursos-title {
+    	font-size: 1em;
+	}
+
+	#big-container {
+	    height: auto;
+	}
+
+	.green-title {
+	    font-size: 1em;
+	}
+
+	.usaria-title {
+    	font-size: 1em;
+	}
+
+	.usaria-subtext {
+    	font-size: 1em;
+	}
+
+	.instructores-title {
+    	font-size: 1.1em;
+	}
+
+
+}
 
 
 

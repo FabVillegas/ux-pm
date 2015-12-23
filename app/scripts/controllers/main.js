@@ -19,5 +19,9 @@ angular.module('usariaUxpmApp').controller('MainCtrl', function ( $scope, $docum
 		$document.scrollToElement( targetElement, offset, duration );
 	};
 
+	$scope.sendEmail = function() {
+
+	};
+
 
 });

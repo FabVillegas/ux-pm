@@ -4,9 +4,14 @@
 		<div class="jumbotron navbar-jumbotron">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-3" style="overflow: auto">
+					<div class="col-md-3 col-xs-6" style="overflow: auto">
 						<img class="usaria-logo" src="./images/logo-usaria.fw.png">
 						<img class="uxalliance-logo" src="./images/logo-uxalliance.fw.png">
+					</div>
+					<div class="navbar-header col-xs-2 col-xs-offset-4">
+						<button type="button" class="navbar-toggle collapsed menu-button" data-toggle="collapse" data-target="#js-navbar-collapse">
+							<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+						</button>
 					</div>
 					<div class="col-md-9 cold-xs-12 custom-nav">
 						<div class="collapse navbar-collapse" id="js-navbar-collapse">
@@ -22,14 +27,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-						<span class="sr-only">Mostrar navegación</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -43,7 +40,7 @@
 			<div class="col-md-9">
 				<h2 class="inicio-title">UX-PM: El primer programa de certificación internacional en UX</h2>
 				<h4>Obtén los conocimientos necesarios en UX para administrar tus proyectos. <img src="./images/hearth.fw.png" /></h4>
-				<button class="white-button-blue-text">
+				<button class="white-button-blue-text" ng-click="scroll( 'ux-pm' )">
 					Conoce más
 				</button>
 			</div>
@@ -52,28 +49,28 @@
 			</div>
 		</div>
 		<div class="inicio-data row">
-			<div class="col-md-3 col-md-offset-1 col-xs-6">
+			<div class="col-md-3 col-md-offset-1 col-xs-6 inicio-info-container">
 				<div class="inicio-data-container">
 					<img src="./images/watch.fw.png" />
 					<p>+ 2,000 hrs</p>
 				</div>
 				<p>de capacitación impartidas</p>
 			</div>
-			<div class="col-md-2 col-xs-6">
+			<div class="col-md-2 col-xs-6 inicio-info-container">
 				<div class="inicio-data-container">
 					<img src="./images/person.fw.png" />
 					<p>+ 7</p>
 				</div>
 				<p>años de experiencia</p>
 			</div>
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-6 inicio-info-container">
 				<div class="inicio-data-container">
 					<img src="./images/book.fw.png" />
 					<p>+ 2,500 hrs</p>
 				</div>
 				<p>personas capacitadas</p>
 			</div>
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-6 inicio-info-container">
 				<div class="inicio-data-container">
 					<img src="./images/medal.fw.png" />
 					<p>Avalado</p>
@@ -100,44 +97,44 @@
 		<div id="uxpm-content-container"class="row">
 			<div class="col-md-5">
 				<div class="row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="uxpm-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Comprenderán la importancia de contar con un enfoque centrado en el usuario para el diseño de productos y servicios.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="uxpm-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Conocerán qué herramientas y métodos UX son útiles para mejorar la calidad de un producto y la eficiencia de los procesos.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="uxpm-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Contarán con los fundamentos para decidir dónde y cuándo hacer inversiones UX y cómo evaluar el impacto de esas inversiones.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-5 col-md-offset-1">
 				<div class="row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="uxpm-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Adquirirán los conocimientos para iniciar, ejecutar y liderar proyectos y programas UX.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="uxpm-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Entenderán cómo integrar el diseño centrado en el usuario en una organización para maximizar el éxito de sus proyectos y para diferenciar sus productos.</p>
 					</div>
 				</div>
@@ -202,22 +199,22 @@
 <div class="jumbotron purple-jumbotron">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-12">
 				<h3>Duración: <br> 48 horas</h3>
 				<div class="purple-line"></div>
 				<p class="purple-text">16 horas por módulo.</p>
 			</div>
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-12">
 				<h3>Teoría <br> aplicada</h3>
 				<div class="purple-line"></div>
 				<p class="purple-text">Basada en lecturas y casos reales.</p>
 			</div>
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-12">
 				<h3>Enfoque <br> práctico</h3>
 				<div class="purple-line"></div>
 				<p class="purple-text">1 proyecto a través de todo el programa.</p>
 			</div>
-			<div class="col-md-3 col-xs-6">
+			<div class="col-md-3 col-xs-12">
 				<h3>Exámenes parciales y de certificación</h3>
 				<div class="purple-line"></div>
 				<p class="purple-text">Se realizan exámenes parciales y uno al final para obtener el certificado avalado por UXAlliance.</p>
@@ -237,7 +234,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<a class="otros-cursos-link" href="#/">contamos con otros cursos abiertos y bajo demanda > </a>
+					<a class="otros-cursos-link" href="http://www.usaria.mx/servicios/capacitaci%C3%B3n-y-formaci%C3%B3n-en-experiencia-de-usuario-y-usabilidad" target="_blank">
+						contamos con otros cursos abiertos y bajo demanda >
+					</a>
 					<p class="otros-cursos-text">
 						Compartimos nuestro conocimiento y aprendizajes en temas de usabilidad, diseño centrado en el usuario ( UX ),
 						arquitectura de información, diseño de interfaces, accesibilidad y diseño de servicios.
@@ -264,7 +263,7 @@
 				<h2 class="green-title">
 					el programa de certificación UX-PM se ofrece bajo demanda. ¡ se parte de una de las generaciones y conviértete en un experto avalado
 					por ux alliance!</h2>
-					<button class="white-button-green-text">SEPARA TU LUGAR</button>
+					<button class="white-button-green-text" ng-click="scroll( 'contacto' )">SEPARA TU LUGAR</button>
 				</div>
 			</div>
 		</div>
@@ -293,7 +292,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12" style="text-align: right">
-				<a class="otros-cursos-link">conoce más ></a>
+				<a class="otros-cursos-link" href="http://www.usaria.mx/" target="_blank">conoce más ></a>
 			</div>
 		</div>
 	</div>
@@ -310,42 +309,42 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="instructores-data row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="instructores-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Tendrás instructores nacionales y extranjeros.</p>
 					</div>
 				</div>
 				<div class="instructores-data row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="instructores-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Todos son parte de UXalliance.</p>
 					</div>
 				</div>
 				<div class="instructores-data row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="instructores-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Todos cuentan con más de 10 años de experiencia en proyectos de UX nacionales e internacionales.</p>
 					</div>
 				</div>
 				<div class="instructores-data row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="instructores-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Todos han dirigido empresas y equipos de UX.</p>
 					</div>
 				</div>
 				<div class="instructores-data row">
-					<div class="col-md-1 col-xs-1">
+					<div class="col-md-1 col-xs-2">
 						<div class="instructores-small-green-line"></div>
 					</div>
-					<div class="col-md-11 col-xs-11">
+					<div class="col-md-11 col-xs-9">
 						<p>Todos cuentan con publicaciones y libros relacionados con el tema.</p>
 					</div>
 				</div>
